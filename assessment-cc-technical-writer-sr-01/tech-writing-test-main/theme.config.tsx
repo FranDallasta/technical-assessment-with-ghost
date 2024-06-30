@@ -17,6 +17,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Created by Franco Dallasta',
   },
+  head: (
+    <>
+        <link rel="icon" href="/img/logo.ico" />
+    </>
+  ),
+  darkMode:false
 }
 
 export default config;
