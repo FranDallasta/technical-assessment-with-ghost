@@ -1,18 +1,22 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React, { useState, useEffect } from 'react';
+import { DocsThemeConfig } from 'nextra-theme-docs';
+import Image from 'next/image';
+
+const Logo = () => {
+  return (
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Image src='/img/logo.png' alt="My Logo" width="50" height="50" />
+      <span style={{ marginLeft: '10px' }}>From ghost to publisher</span>
+    </div>
+  );
+};
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
-  project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
-  },
-  chat: {
-    link: 'https://discord.com',
-  },
+  logo: <Logo />,
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Created by Franco Dallasta',
   },
 }
 
-export default config
+export default config;
