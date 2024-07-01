@@ -13,6 +13,9 @@ const Logo = () => {
 
 const config: DocsThemeConfig = {
   logo: <Logo />,
+  project: {
+    link: 'https://github.com/FranDallasta/technical-assessment-with-ghost',
+  },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Created by Franco Dallasta',
@@ -22,7 +25,7 @@ const config: DocsThemeConfig = {
         <link rel="icon" href="/img/logo.ico" />
     </>
   ),
-  darkMode:false
+  darkMode: false
 }
 
 export default config;

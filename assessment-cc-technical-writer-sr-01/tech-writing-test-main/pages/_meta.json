@@ -2,9 +2,5 @@
   "index": "Introduction",
   "whatsGhost": "Getting started", 
   "ghostVsWordpress": "Ghost vs Wordpress",
-  "startPublishing": "Start publishing",
-  "about": {
-    "title": "About",
-    "type": "page"
-  }
+  "startPublishing": "Start publishing"
 }
