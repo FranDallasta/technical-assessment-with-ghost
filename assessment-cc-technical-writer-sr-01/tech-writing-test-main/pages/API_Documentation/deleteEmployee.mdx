@@ -1,0 +1,34 @@
+# Delete an employee's record
+
+### Introduction
+
+The `/delete/{id}` API allows you to delete a specific employee record by its ID. 
+
+💡 Before you delete any record, it is recomended to check the employee's id first. Use this [request](/API_Documentation/employeeById.mdx) for that. 
+
+### Prerequisites
+
+- An API testing tool like **Postman** on your system.
+- Basic understanding of how to import a cURL into your API testing tool.
+
+### Delete an employee's record: 
+
+To delete an employee record, you can use the following cURL command:
+
+```bash
+
+curl --location --request DELETE 'https://dummy.restapiexample.com/api/v1/delete/2'
+
+```
+
+This is the standard response that you will receive after running that command: 
+
+```bash
+
+{
+    "status": "success",
+    "data": "2",
+    "message": "Successfully! Record has been deleted"
+}
+
+```

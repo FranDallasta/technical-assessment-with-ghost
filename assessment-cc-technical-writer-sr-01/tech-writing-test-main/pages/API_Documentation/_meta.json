@@ -2,5 +2,6 @@
     "employee":"Employee",
     "getEmployees":"GET /employee",
     "employeeById":"GET /employee/{id}",
-    "createEmployee": "POST /create"
+    "createEmployee": "POST /create",
+    "deleteEmployee": "DELETE /delete/{id}"
 }

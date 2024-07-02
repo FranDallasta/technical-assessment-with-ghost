@@ -1,0 +1,50 @@
+# GET all the employees
+
+### Introduction 
+
+The `/employee` API allows you to list all employees data.  This guide will help you understand how to use the GET feature to retrieve that information.
+
+### Prerequisites
+
+- An API testing tool like **Postman** on your system.
+- Basic understanding of how to import a cURL into your API testing tool.
+
+### Retrieve Employee Data
+
+Use the following cURL command to retrieve the list of employees:
+
+```bash
+
+    curl --location 'https://dummy.restapiexample.com/api/v1/employees'
+
+```
+
+This is the standard response that you will receive after running that command: 
+
+```bash
+
+{
+    "status": "success",
+    "data": [
+        {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        {
+            "id": 2,
+            "employee_name": "Garrett Winters",
+            "employee_salary": 170750,
+            "employee_age": 63,
+            "profile_image": ""
+        },
+        {...},
+    ],
+    "message": "Successfully! All records has been fetched."
+}
+
+```
+
+For more information about the fields used in `/employee` click [here](/API_Documentation/employee.mdx).
