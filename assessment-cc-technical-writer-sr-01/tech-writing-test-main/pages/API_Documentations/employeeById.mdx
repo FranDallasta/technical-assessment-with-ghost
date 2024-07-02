@@ -1,0 +1,30 @@
+# GET employee by id
+
+This operation is used to retrieve information about a specific employee. To use it, paste this cURL command into your API tester:
+
+```bash
+
+    curl --location 'https://dummy.restapiexample.com/api/v1/employee/1'
+
+```
+
+This is the standard response for a Successful HTTP request: 
+
+```bash
+
+    {
+        "status": "success",
+        "data": {
+            "id": 1,
+            "employee_name": "Tiger Nixon",
+            "employee_salary": 320800,
+            "employee_age": 61,
+            "profile_image": ""
+        },
+        "message": "Successfully! Record has been fetched."
+    }
+
+```
+
+> If, while working with this API, you receive a code 429 (too many requests), don't worry. Wait a moment and try again.
+
